@@ -1,0 +1,1 @@
+const jump=document.querySelector('#jump');jump.addEventListener('change',()=>document.getElementById('p'+jump.value).scrollIntoView({block:'start'}));const observer=new IntersectionObserver(entries=>{for(const e of entries)if(e.isIntersecting)jump.value=e.target.id.slice(1)},{rootMargin:'-10% 0px -65% 0px'});document.querySelectorAll('figure').forEach(f=>observer.observe(f));

@@ -5,4 +5,5 @@
 - [漫画を読む](https://lockcole6.github.io/taikutsu-no-odds/)
 - 人物・競走・成績は架空です。AIを用いて制作しています。
 
-HTML・CSS・PNGによる静的サイトです。GitHub Pagesはmainブランチのルートから公開します。
+HTML・CSS・JavaScript・PNG（白黒64階調）による静的サイトです。GitHub Pagesはmainブランチのルートから公開します。
+
